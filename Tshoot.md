@@ -1,3 +1,6 @@
+METASPLOIT
+==========
+
 1. Database Not Connected Error
 
 #Launch database first:
@@ -14,3 +17,8 @@ msf > db_status
 
 #Use below command to start building cache database.
 db_rebuild_cache
+
+Kali broken after upgrade
+=========================
+
+Boot -> Advanced -> Recovery. Login. dpkg --configure -a
